@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.image.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="418.0" prefWidth="600.0" style="-fx-background-color: ffe6e6;" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Cafe.MainMenuController">
+   <children>
+      <Label layoutX="319.0" layoutY="14.0" prefHeight="57.0" prefWidth="251.0" text="Welcome to RUCafe!" textFill="#da0505">
+         <font>
+            <Font name="Brush Script MT Italic" size="34.0" />
+         </font>
+      </Label>
+      <Button fx:id="orderDonuts" contentDisplay="TOP" layoutX="38.0" layoutY="25.0" mnemonicParsing="false" prefHeight="180.0" prefWidth="230.0" style="-fx-background-color: black;" text="Order Donuts" textFill="WHITE" onAction="#handleButtonActionDonut">
+         <graphic>
+            <ImageView fitHeight="128.0" fitWidth="190.0" pickOnBounds="true">
+               <image>
+                  <Image url="@../RUCafe_Images/RUCafe_donut.jpeg" />
+               </image>
+            </ImageView>
+         </graphic>
+         <font>
+            <Font name="Brush Script MT Italic" size="24.0" />
+         </font></Button>
+      <Button fx:id="orderCoffee" contentDisplay="TOP" layoutX="38.0" layoutY="216.0" mnemonicParsing="false" prefHeight="184.0" prefWidth="201.0" style="-fx-background-color: black;" text="Order Coffee" textFill="#fffefe" onAction="#handleButtonActionCoffee">
+         <graphic>
+            <ImageView fitHeight="133.0" fitWidth="198.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../RUCafe_Images/coffee.jpeg" />
+               </image></ImageView>
+         </graphic>
+         <font>
+            <Font name="Brush Script MT Italic" size="24.0" />
+         </font>
+      </Button>
+      <Button fx:id="myOrders" contentDisplay="TOP" layoutX="371.0" layoutY="84.0" mnemonicParsing="false" prefHeight="91.0" prefWidth="146.0" style="-fx-background-color: Pink;" text="My Orders" textFill="#e8337e" onAction="#handleButtonActionMyOrders">
+         <graphic>
+            <ImageView fitHeight="80.0" fitWidth="93.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../RUCafe_Images/note.png" />
+               </image></ImageView>
+         </graphic>
+         <font>
+            <Font name="Brush Script MT Italic" size="24.0" />
+         </font></Button>
+      <Button fx:id="storeOrders" contentDisplay="TOP" layoutX="371.0" layoutY="228.0" mnemonicParsing="false" prefHeight="132.0" prefWidth="146.0" style="-fx-background-color: add8e6;" text="Store Orders" textFill="#1775d3" onAction="#handleButtonActionStoreOrders">
+         <graphic>
+            <ImageView fitHeight="78.0" fitWidth="83.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../RUCafe_Images/shopping-cart.png" />
+               </image></ImageView>
+         </graphic>
+         <font>
+            <Font name="Brush Script MT Italic" size="24.0" />
+         </font></Button>
+   </children>
+</AnchorPane>
