@@ -5,3 +5,5 @@ An ordering management system (front-end to back-end) for an RUCafe that sells d
 ![Alt Text](http://g.recordit.co/THIMz4VvhV.gif)
 ### Part 2
 ![Alt Text](http://g.recordit.co/wHvbojr15k.gif)
+### Part 3
+![Alt Text](http://g.recordit.co/NbJUFww1PW.gif)
