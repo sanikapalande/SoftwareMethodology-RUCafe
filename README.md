@@ -1,4 +1,5 @@
 # SoftwareMethodology-RUCafe
 An ordering management system (front-end to back-end) for an RUCafe that sells donuts &amp; coffee. Developed with [Jared Chiou](https://github.com/jared-chiou).
 ## Demo
-![Alt Text](http://g.recordit.co/MfGS5S9kHD.gif)
+### Part 1
+![Alt Text](http://g.recordit.co/THIMz4VvhV.gif)
